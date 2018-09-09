@@ -3,7 +3,6 @@ import voluptuous as vol
 import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers import event
 
-
 _LOGGER = logging.getLogger(__name__)
 DOMAIN = 'notice'
 CONF_INTERVAL_TIME = "time"
@@ -21,9 +20,6 @@ CONFIG_SCHEMA = vol.Schema(
             }),
     },
     extra=vol.ALLOW_EXTRA)
-
-movie = {}
-movie_name = []
 
 
 async def async_setup(hass, config):
