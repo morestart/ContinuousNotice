@@ -1,4 +1,4 @@
-# HomeAssistant 前端提醒组件
+# HomeAssistant 前端提醒组件(适配lovelace-ui)
 
 ## 使用方法：
 
