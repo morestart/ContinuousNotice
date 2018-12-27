@@ -3,6 +3,7 @@
 ## 使用方法：
 
 - 将notice.py放于`homeassistant\components`下
+
 ## 配置内容:
 
 configuration文件下写入以下内容
